@@ -1,1 +1,118 @@
-/.metadata/
+ # -------------------------
+# Java / Build artifacts
+# -------------------------
+/target/
+/build/
+/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------
+# Maven
+# -------------------------
+/.mvn/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+dependency-reduced-pom.xml
+release.properties
+
+# -------------------------
+# Gradle
+# -------------------------
+.gradle/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# -------------------------
+# Eclipse
+# -------------------------
+.metadata/
+.apt_generated/
+.classpath
+.project
+.settings/
+.recommenders/
+
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+*.iws
+out/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# OS files
+# -------------------------
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# -------------------------
+# Logs and runtime
+# -------------------------
+*.log
+*.pid
+*.stacktrace
+
+# -------------------------
+# Spring Boot / Application files to ignore
+# -------------------------
+/spring.log
+/*.db
+*.h2.db
+/*.mv.db
+# local env files (do not commit secrets)
+backend/.env
+frontend/.env
+.env
+
+# -------------------------
+# Node / React
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# -------------------------
+# IDE / Tooling
+# -------------------------
+/.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
+
+# -------------------------
+# Generated sources
+# -------------------------
+generated/
+gen/
+build/
+
+# -------------------------
+# Optional: OS temp
+# -------------------------
+tmp/
+temp/
+
+# -------------------------
+# Keep README, docs, source, scripts
+# -------------------------
+# (no rules here - those will be kept)
