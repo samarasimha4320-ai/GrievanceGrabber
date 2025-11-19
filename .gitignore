@@ -116,3 +116,4 @@ temp/
 # Keep README, docs, source, scripts
 # -------------------------
 # (no rules here - those will be kept)
+backend/bin/main/application-local.properties
