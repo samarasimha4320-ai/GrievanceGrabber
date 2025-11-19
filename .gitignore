@@ -1,119 +1,42 @@
- # -------------------------
-# Java / Build artifacts
-# -------------------------
-/target/
-/build/
-/out/
+ # Node
+/node_modules
+/frontend/node_modules
+/frontend/dist
+npm-debug.log
+yarn-error.log
+corepack
+node.exe
+npm
+npx
+npm.cmd
+npx.cmd
+npm.ps1
+npx.ps1
+
+# Vite/React build
+/frontend/dist
+/frontend/.env.local
+
+# Gradle / Java
+/build
+/.gradle
+/backend/build
+/backend/gradlew
+/backend/gradlew.bat
+**/out/
 *.class
 *.jar
-*.war
-*.ear
 
-# -------------------------
-# Maven
-# -------------------------
-/.mvn/
-/pom.xml.tag
-/pom.xml.releaseBackup
-/pom.xml.versionsBackup
-/logs/
-dependency-reduced-pom.xml
-release.properties
-
-# -------------------------
-# Gradle
-# -------------------------
-.gradle/
-gradle-app.setting
-gradle-wrapper.jar
-gradle-wrapper.properties
-gradlew
-gradlew.bat
-/build/
-!gradle/wrapper/gradle-wrapper.jar
-
-# -------------------------
-# Eclipse
-# -------------------------
-.metadata/
-.apt_generated/
-.classpath
-.project
-.settings/
-.recommenders/
-
-# -------------------------
-# IntelliJ IDEA
-# -------------------------
-.idea/
+# IDEs & OS
+.idea
+.vscode
 *.iml
-*.iws
-out/
-
-# -------------------------
-# VS Code
-# -------------------------
-.vscode/
-
-# -------------------------
-# OS files
-# -------------------------
-Thumbs.db
 .DS_Store
-desktop.ini
+Thumbs.db
 
-# -------------------------
-# Logs and runtime
-# -------------------------
+# Local application properties
+**/application-local.properties
+/backend/bin/
+
+# Logs
 *.log
-*.pid
-*.stacktrace
-
-# -------------------------
-# Spring Boot / Application files to ignore
-# -------------------------
-/spring.log
-/*.db
-*.h2.db
-/*.mv.db
-# local env files (do not commit secrets)
-backend/.env
-frontend/.env
-.env
-
-# -------------------------
-# Node / React
-# -------------------------
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-yarn.lock
-
-# -------------------------
-# IDE / Tooling
-# -------------------------
-/.idea/
-/.vscode/
-/*.sublime-workspace
-/*.sublime-project
-
-# -------------------------
-# Generated sources
-# -------------------------
-generated/
-gen/
-build/
-
-# -------------------------
-# Optional: OS temp
-# -------------------------
-tmp/
-temp/
-
-# -------------------------
-# Keep README, docs, source, scripts
-# -------------------------
-# (no rules here - those will be kept)
-backend/bin/main/application-local.properties
