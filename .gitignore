@@ -1,33 +1,35 @@
- # Node
+ # Node & frontend
 /node_modules
 /frontend/node_modules
 /frontend/dist
 npm-debug.log
 yarn-error.log
-corepack
 node.exe
+nodevars.bat
 npm
 npx
 npm.cmd
 npx.cmd
 npm.ps1
 npx.ps1
+corepack
 
-# Vite/React build
+# Vite / build output
 /frontend/dist
 /frontend/.env.local
 
-# Gradle / Java
-/build
+# Gradle / Java / build outputs
 /.gradle
+/build
 /backend/build
-/backend/gradlew
-/backend/gradlew.bat
-**/out/
-*.class
-*.jar
+/backend/bin
+gradle-wrapper.jar
 
-# IDEs & OS
+# IDE and OS
+/.metadata
+/.project
+/.classpath
+/.settings
 .idea
 .vscode
 *.iml
@@ -36,7 +38,3 @@ Thumbs.db
 
 # Local application properties
 **/application-local.properties
-/backend/bin/
-
-# Logs
-*.log
