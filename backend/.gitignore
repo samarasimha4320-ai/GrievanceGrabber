@@ -1,37 +1,52 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+ # Java / Gradle
+/build/
+.gradle/
+**/build/
+**/out/
+*.class
+*.jar
+/*.iml
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# Eclipse / IDE
+/.idea/
 .vscode/
+*.log
+
+# Gradle wrapper
+/gradlew
+/gradlew.bat
+/gradle/
+
+# Node / Frontend
+/frontend/node_modules/
+frontend/dist/
+npm-debug.log
+yarn-error.log
+.pnp.*
+.pnpm-debug.log
+
+# OS / system
+Thumbs.db
+.DS_Store
+
+# Local environment config (do not commit secrets)
+**/src/main/resources/application-local.properties
+/backend/src/main/resources/application-local.properties
+/backend/src/main/resources/*.local.*
+
+# Exclude any bundled executables you accidentally added
+/node.exe
+/npm
+/npm.cmd
+/npm.ps1
+/npx
+/npx.cmd
+/npx.ps1
+/corepack
+/corepack.cmd
+/install_tools.bat
+/nodevars.bat
+
+# ignore generated frontend files
+frontend/.env
+frontend/.env.local
